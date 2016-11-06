@@ -1,0 +1,51 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+    It clearly showed which file contains which content. It provides a direct comparsion line by line.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    I can see which history often repeats. Typicall errors can be clearly identified. It is always visible and identifiable when which change was done.
+
+    It is fast and easy to find previous thoughts. You can see who did what change. You can ask another programmer why he did something like he did.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    +it is saved and reviewable by a group of people
+    +a human decides  when it is the best time to commit
+    -A lot of versions are visible even with changes which might be not of interest to others
+    -different decision rules apply for a manual commit
+
+    +frequency is very indifferent
+    -a second person does not know when to review the code
+    -decision making for commit might be not consistent
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    To ensure that each coding fragment works with each other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Via the terminal. By default, with no arguments, git log lists the commits made in that repository in reverse chronological order – that is, the most recent commits show up first.
+    git-diff - Show changes between commits, commit and working tree, etc
+
+    With git log I can identify under which ID which change was done. With git diff I see added and deleted line with a different color. i also see the changed code.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    The work is saved and it is possible to come to a near past working version back without starting from the very beginning.
+
+    Because I easy can access previous versions of my code. Nothing is lost.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Project work in the data analyst nanodegree. Setting up marketing analysis for chassis dynamometers.
+    
+    Use for comparing files and seeing differences between various versions.
+
+    
+
