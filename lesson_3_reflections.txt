@@ -33,4 +33,6 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    - When you are unsure if you want to publish your changes or if it works
+    - You can surely separate what you did and separate from collaborators
+    - When you change in the master you do not have that pull, push and merge effort
